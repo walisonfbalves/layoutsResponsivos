@@ -54,3 +54,47 @@
 .institucional__video {
     width: 100vw;
 }
+
+@media screen and (min-width: 768px) {
+    .institucional__conteudo {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .institucional__video {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        align-self: center;
+         
+        width:768px;
+    }
+
+    .institucional__contato-email {
+        display: inline
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .institucional__conteudo {
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        text-align: left;
+    }
+
+    .institucional__video {  
+        width: 375px;
+        margin-top: 0px;
+    }
+
+    .institucional__contato-email {
+        display: block;
+    }
+}
+
